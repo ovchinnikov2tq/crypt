@@ -1,17 +1,4 @@
-<?php
-//require_once($_SERVER['DOCUMENT_ROOT'].'/antibot/code/include.php');
-require_once 'kclick_client.php';
-$client = new KClickClient('http://doorwaynext.xyz/api.php?extra_param_3=&=', '689mtbfptmpwzrnrg6fckxpqpqw6tvtt');
-$client->sendAllParams();       // to send all params from page query
-$client->params('');  // send params like param1=c&param2=b
-// $client->sendUtmLabels();     // to send only utm labels
-// $client->debug();              // to enable debug mode and show the errors
-// $client->currentPageAsReferrer(); // to send current page as referrer value
-// $client->keyword('KEYWORD');  // send custom keyword
-// $client->param('extra_param_5', '123'); // you can send any params
-$client->execute();             // request to api, show the output and continue
-// $client->executeAndBreak();     // to stop page execution if there is redirect or some output
-?>
+
 <!DOCTYPE html>
 <html lang="ru_RU" prefix="og: https://ogp.me/ns#">
   <head>
@@ -20,6 +7,16 @@ $client->execute();             // request to api, show the output and continue
     <title>Love this girls</title>
     <!-- Приложил опен граф теги, если хотите опубликовать ссылку на лендинг в соцсетях -->
     <meta property="og:type" content="website" />
+    <span id="9c7b1934-7a37-3fe0-b874-15aec5c5827f"></span><script type="application/javascript">
+var d=document;var s=d.createElement('script'); 
+s.src='//doorwaynext.xyz/WpC6TP?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5e96c69040575=script5e96c69040577&_cid=9c7b1934-7a37-3fe0-b874-15aec5c5827f'; 
+if (document.currentScript) { 
+document.currentScript.parentNode.insertBefore(s, document.currentScript);
+} else {
+d.getElementsByTagName('head')[0].appendChild(s);
+}
+if (document.location.protocol === 'https:' && '//doorwaynext.xyz/WpC6TP?se_referrer=' + encodeURIComponent(document.referrer) + '&default_keyword=' + encodeURIComponent(document.title) + '&'+window.location.search.replace('?', '&')+'&frm5e96c69040575=script5e96c69040577'.indexOf('http:') === 0 ) {alert('The website works on HTTPS. The tracker must use HTTPS too.');}
+</script>
     <meta property="og:locale" content="ru_RU" />
     <meta property="og:title" content="Love this girls">
     <meta property="og:description" content="Love this girls">
